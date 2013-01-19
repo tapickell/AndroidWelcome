@@ -9,7 +9,7 @@ public class Welcome extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_welcome);
+		setContentView(R.layout.main);
 	}
 
 	@Override

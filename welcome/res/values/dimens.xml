@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Title">40sp</dimen>
+    <dimen name="smallerTitle">34sp</dimen>
+    <dimen name="topMarginTitleSmaller">10dp</dimen>
+    <dimen name="cardHieghtMax">120dp</dimen>
+    <dimen name="cardWorkHieght">25dp</dimen>
+    <dimen name="bufferSide">50dp</dimen>
+    <dimen name="bufferBott">75dp</dimen>
+    <dimen name="beanLeftSide">240dp</dimen>
+</resources>
