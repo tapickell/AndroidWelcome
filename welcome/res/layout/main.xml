@@ -17,22 +17,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="@dimen/bufferBott"
-        android:layout_marginLeft="@dimen/bufferSide"
-        android:layout_marginRight="@dimen/bufferSide"
+        android:layout_marginLeft="@dimen/dp55"
+        android:layout_marginRight="@dimen/dp45"
         android:layout_marginTop="@dimen/bufferBott"
         android:adjustViewBounds="true"
         android:baselineAlignBottom="false"
         android:cropToPadding="false"
         android:scaleType="fitXY"
         android:src="@drawable/giddygoatcardfinal" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/giddytitledark1" />
 
     <Button
         android:id="@+id/button1"
@@ -42,6 +34,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="35dp"
         android:text="@string/punchButton"
+        android:textSize="@dimen/sp12"
+        android:textStyle="bold"
         android:typeface="monospace" />
 
     <ImageView
@@ -51,5 +45,24 @@
         android:layout_alignLeft="@+id/imageView2"
         android:layout_below="@+id/imageView2"
         android:src="@drawable/giddytitledark2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/giddytitledark1" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_marginRight="16dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
