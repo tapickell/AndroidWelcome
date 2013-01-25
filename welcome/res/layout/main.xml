@@ -65,4 +65,21 @@
         android:text="0"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <TextView
+        android:id="@+id/mytextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:duplicateParentState="true"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="               …this is a horizontal scrolling text sample ...           …It will end up being the twitter feed from the @giddygoatupdate account….          ."
+        android:textColor="@color/white_text" />
+
 </RelativeLayout>

@@ -12,6 +12,8 @@ public final class R {
     }
     public static final class color {
         public static final int gray_text=0x7f040000;
+        public static final int text_red=0x7f040001;
+        public static final int white_text=0x7f040002;
     }
     public static final class dimen {
         public static final int Title=0x7f050000;
@@ -50,7 +52,8 @@ public final class R {
         public static final int imageView3=0x7f090001;
         public static final int imageView4=0x7f090002;
         public static final int imageView5=0x7f090004;
-        public static final int menu_settings=0x7f090009;
+        public static final int menu_settings=0x7f09000a;
+        public static final int mytextview=0x7f090009;
         public static final int textView1=0x7f090005;
         public static final int welcomeRelativeLayout=0x7f090008;
     }
