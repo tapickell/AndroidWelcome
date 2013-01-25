@@ -56,6 +56,9 @@ public class Welcome extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.activity_welcome, menu);
+        //add credits option to menu
+        //  #### should we add social integration options to menu for cleaner ui?  ####
+
 		return true;
 	}
 
